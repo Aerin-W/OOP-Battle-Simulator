@@ -14,9 +14,9 @@ def main():
 
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
 
-    goblin2 = Goblin("Peanut")
+    goblinTwo = Goblin("Peanut")
     
-    print(f"{goblin2.name} enters the arena with {goblin2.health} health.")
+    print(f"{goblinTwo.name} enters the arena with {goblinTwo.health} health.")
     
     print("But no hero has answered the call... yet.")
 
