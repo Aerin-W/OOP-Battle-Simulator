@@ -7,7 +7,7 @@ class Hero:
         self.name = name
         self.health = 100
         self.attack_power = 20
-        self.armor = 5
+        self.armor = 3
 
 
     def attack(self):
