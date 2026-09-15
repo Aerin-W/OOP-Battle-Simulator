@@ -11,7 +11,7 @@ class Hero:
 
     def attack(self):
         """Return a random amount of damage."""
-        return random.randint(1, self.attack_power)
+        return random.randint(5, self.attack_power)
 
     def take_damage(self, damage):
         """Reduce health without allowing it to fall below zero."""
