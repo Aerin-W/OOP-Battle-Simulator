@@ -9,8 +9,13 @@ class Hero:
         self.attack_power = 20
         self.armor = 5
 
+
     def attack(self):
         """Return a random amount of damage."""
+        doesCriticalHit = random.randint(1,6) == 6
+        if doesCriticalHit:
+            print(f"{self.name} had a critical hit!")
+            return random.randint(2, self.attack_power) + 10
         return random.randint(2, self.attack_power)
         
 

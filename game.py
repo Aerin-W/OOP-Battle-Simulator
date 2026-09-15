@@ -23,6 +23,7 @@ def main():
 
     print(f"{hero.name} enters the arena with {hero.health} health. Hero has {hero.armor} armor points.")
 
+
     heroattacknum = hero.attack()
 
     goblin.take_damage(heroattacknum)
